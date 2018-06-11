@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sorrryyyy</title>
+	<script type="text/javascript" src="ip.json"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		function getRandomInt(min, max) {
+    		return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		function ipGetter() {
+			return ip.data[getRandomInt(0,ip.data.length)];
+		}
+
+		window.setInterval( () => {
+			window.open("http://"+ipGetter());
+		},1000);
+	</script>
+</body>
+</html>
