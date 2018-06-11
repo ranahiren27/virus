@@ -1,4 +1,4 @@
 # virus
 #################### warnning ####################
 
-# dont'n run on your pc!!!
+# don't run on your pc!!!
